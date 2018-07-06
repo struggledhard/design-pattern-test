@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/facade-pattern/facade-pattern.iml" filepath="$PROJECT_DIR$/facade-pattern/facade-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory-pattern/factory-pattern.iml" filepath="$PROJECT_DIR$/factory-pattern/factory-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/filter-pattern/filter-pattern.iml" filepath="$PROJECT_DIR$/filter-pattern/filter-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flyweight-pattern/flyweight-pattern.iml" filepath="$PROJECT_DIR$/flyweight-pattern/flyweight-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" filepath="$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" />
     </modules>
   </component>
