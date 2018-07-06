@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a4475-de3d-4a83-b32a-072af9865305" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/decorator-pattern/decorator-pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/DecoratorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/RedShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/ShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade-pattern/facade-pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/FacadePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/ShapeMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -22,7 +21,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Shape.java">
+        <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
@@ -31,66 +30,51 @@
         </entry>
       </file>
       <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Rectangle.java">
+        <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="220">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding>
                 <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Circle.java">
+        <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
                 <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShapeDecorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/ShapeDecorator.java">
+      <file leaf-file-name="ShapeMaker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/ShapeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="462">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedShapeDecorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/RedShapeDecorator.java">
+      <file leaf-file-name="FacadePatternDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/FacadePatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-              <folding>
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DecoratorPatternDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/DecoratorPatternDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="154">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -111,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/factory-pattern/src/com/skh/pattern/Shape.java" />
-        <option value="$PROJECT_DIR$/factory-pattern/src/com/skh/pattern/Rectangle.java" />
         <option value="$PROJECT_DIR$/factory-pattern/src/com/skh/pattern/Square.java" />
         <option value="$PROJECT_DIR$/factory-pattern/src/com/skh/pattern/Circle.java" />
         <option value="$PROJECT_DIR$/factory-pattern/src/com/skh/pattern/ShapeFactory.java" />
@@ -160,6 +142,10 @@
         <option value="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/ShapeDecorator.java" />
         <option value="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/RedShapeDecorator.java" />
         <option value="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/DecoratorPatternDemo.java" />
+        <option value="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Shape.java" />
+        <option value="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Rectangle.java" />
+        <option value="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Circle.java" />
+        <option value="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/ShapeMaker.java" />
       </list>
     </option>
   </component>
@@ -169,7 +155,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -188,16 +174,16 @@
           <expand>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="decorator-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="facade-pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="decorator-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="facade-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="decorator-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="facade-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -238,18 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DecoratorPatternDemo">
-    <configuration name="AdapterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.skh.pattern.AdapterPatternDemo" />
-      <module name="adapter-pattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.skh.pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.FacadePatternDemo">
     <configuration name="BridgePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.skh.pattern.BridgePatternDemo" />
       <module name="bridge-pattern" />
@@ -275,6 +250,17 @@
     <configuration name="DecoratorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.skh.pattern.DecoratorPatternDemo" />
       <module name="decorator-pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skh.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FacadePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skh.pattern.FacadePatternDemo" />
+      <module name="facade-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -336,19 +322,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.AdapterPatternDemo" />
       <item itemvalue="Application.BridgePatternDemo" />
       <item itemvalue="Application.FilterPatternDemo" />
       <item itemvalue="Application.CompositePatternDemo" />
       <item itemvalue="Application.DecoratorPatternDemo" />
+      <item itemvalue="Application.FacadePatternDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacadePatternDemo" />
         <item itemvalue="Application.DecoratorPatternDemo" />
         <item itemvalue="Application.CompositePatternDemo" />
         <item itemvalue="Application.FilterPatternDemo" />
         <item itemvalue="Application.BridgePatternDemo" />
-        <item itemvalue="Application.AdapterPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -367,12 +353,12 @@
       <workItem from="1530499728070" duration="673000" />
       <workItem from="1530603898943" duration="2904000" />
       <workItem from="1530673312216" duration="5165000" />
-      <workItem from="1530757501141" duration="10791000" />
+      <workItem from="1530757501141" duration="12791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28517000" />
+    <option name="totallyTimeSpent" value="30517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -441,41 +427,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/abstract-factory-pattern/src/com/skh/pattern/ColorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract-factory-pattern/src/com/skh/pattern/FactoryProdecer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory-pattern/src/com/skh/pattern/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract-factory-pattern/src/com/skh/pattern/AbstractFactoryPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract-factory-pattern/src/com/skh/pattern/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abstract-factory-pattern/src/com/skh/pattern/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -813,31 +764,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Shape.java">
+    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/DecoratorPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="528">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/RedShapeDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="396">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -855,23 +797,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/RedShapeDecorator.java">
+    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="220">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/DecoratorPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="264">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/ShapeMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/FacadePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -927,7 +927,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>decorator-pattern</last-edited>
+          <last-edited>facade-pattern</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
