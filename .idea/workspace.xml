@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a4475-de3d-4a83-b32a-072af9865305" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Iterator-pattern/iterator-pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/IteratorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/NameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator-pattern/mediator-pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/MediatorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,42 +18,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/Iterator.java">
+      <file leaf-file-name="ChatRoom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/ChatRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="242">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Container.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/Container.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NameRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/NameRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="506">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IteratorPatternDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/IteratorPatternDemo.java">
+      <file leaf-file-name="MediatorPatternDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/MediatorPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="374">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -75,9 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bridge-pattern/src/com/skh/pattern/GreenCircle.java" />
-        <option value="$PROJECT_DIR$/bridge-pattern/src/com/skh/pattern/Shape.java" />
-        <option value="$PROJECT_DIR$/bridge-pattern/src/com/skh/pattern/Circle.java" />
         <option value="$PROJECT_DIR$/bridge-pattern/src/com/skh/pattern/BridgePatternDemo.java" />
         <option value="$PROJECT_DIR$/filter-pattern/src/com/skh/pattern/Person.java" />
         <option value="$PROJECT_DIR$/filter-pattern/src/com/skh/pattern/Criteria.java" />
@@ -126,6 +119,9 @@
         <option value="$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/Container.java" />
         <option value="$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/NameRepository.java" />
         <option value="$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/IteratorPatternDemo.java" />
+        <option value="$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/ChatRoom.java" />
+        <option value="$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/User.java" />
+        <option value="$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/MediatorPatternDemo.java" />
       </list>
     </option>
   </component>
@@ -149,21 +145,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Iterator-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator-pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Iterator-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Iterator-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -171,7 +168,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -204,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IteratorPatternDemo">
+  <component name="RunManager" selected="Application.MediatorPatternDemo">
     <configuration name="ChianPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.skh.pattern.ChianPatternDemo" />
       <module name="chain-pattern" />
@@ -249,9 +245,9 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ProxyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.skh.pattern.ProxyPatternDemo" />
-      <module name="proxy-pattern" />
+    <configuration name="MediatorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skh.pattern.MediatorPatternDemo" />
+      <module name="mediator-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -302,19 +298,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ProxyPatternDemo" />
       <item itemvalue="Application.ChianPatternDemo" />
       <item itemvalue="Application.CommandPatternDemo" />
       <item itemvalue="Application.InterpreterPatternDemo" />
       <item itemvalue="Application.IteratorPatternDemo" />
+      <item itemvalue="Application.MediatorPatternDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediatorPatternDemo" />
         <item itemvalue="Application.IteratorPatternDemo" />
         <item itemvalue="Application.InterpreterPatternDemo" />
         <item itemvalue="Application.CommandPatternDemo" />
         <item itemvalue="Application.ChianPatternDemo" />
-        <item itemvalue="Application.ProxyPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -336,12 +332,13 @@
       <workItem from="1530757501141" duration="18421000" />
       <workItem from="1531105641933" duration="6625000" />
       <workItem from="1531191720763" duration="5352000" />
-      <workItem from="1531206785966" duration="1426000" />
+      <workItem from="1531206785966" duration="2429000" />
+      <workItem from="1531278138771" duration="1298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49550000" />
+    <option name="totallyTimeSpent" value="51851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -349,19 +346,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.1655481" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32997763" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997763" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,6 +371,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.1655481" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,28 +407,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/filter-pattern/src/com/skh/pattern/CriteriaFemale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-449" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composite-pattern/src/com/skh/pattern/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composite-pattern/src/com/skh/pattern/CompositePatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
@@ -772,10 +747,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/Iterator.java">
+    <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/IteratorPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="352">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/NameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -786,21 +768,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/NameRepository.java">
+    <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="198">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/ChatRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Iterator-pattern/src/com/skh/pattern/IteratorPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/mediator-pattern/src/com/skh/pattern/MediatorPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -821,7 +823,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -856,7 +858,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>iterator-pattern</last-edited>
+          <last-edited>mediator-pattern</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
