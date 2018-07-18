@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a4475-de3d-4a83-b32a-072af9865305" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/null-object-pattern/null-object-pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/AbstractCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/CustomerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/NullCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/RealCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationSubstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/StrategyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy-pattern/strategy-pattern.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,51 +21,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractCustomer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/AbstractCustomer.java">
+      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/Strategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OperationAdd.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationAdd.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealCustomer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/RealCustomer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NullCustomer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/NullCustomer.java">
+      <file leaf-file-name="OperationSubstract.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationSubstract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="220">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/CustomerFactory.java">
+      <file leaf-file-name="OperationMultiply.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationMultiply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategyPatternDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/StrategyPatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -84,13 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/FacadePatternDemo.java" />
-        <option value="$PROJECT_DIR$/flyweight-pattern/src/com/skh/pattern/Shape.java" />
-        <option value="$PROJECT_DIR$/flyweight-pattern/src/com/skh/pattern/ShapeFactory.java" />
-        <option value="$PROJECT_DIR$/flyweight-pattern/src/com/skh/pattern/Circle.java" />
-        <option value="$PROJECT_DIR$/flyweight-pattern/src/com/skh/pattern/FlyweightPatternDemo.java" />
-        <option value="$PROJECT_DIR$/proxy-pattern/src/com/skh/pattern/Image.java" />
-        <option value="$PROJECT_DIR$/proxy-pattern/src/com/skh/pattern/RealImage.java" />
         <option value="$PROJECT_DIR$/proxy-pattern/src/com/skh/pattern/ProxyImage.java" />
         <option value="$PROJECT_DIR$/proxy-pattern/src/com/skh/pattern/ProxyPatternDemo.java" />
         <option value="$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/AbstractLogger.java" />
@@ -135,6 +153,13 @@
         <option value="$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/RealCustomer.java" />
         <option value="$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/NullCustomer.java" />
         <option value="$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/CustomerFactory.java" />
+        <option value="$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/NullPatternDemo.java" />
+        <option value="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/Strategy.java" />
+        <option value="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationAdd.java" />
+        <option value="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationSubstract.java" />
+        <option value="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationMultiply.java" />
+        <option value="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/Context.java" />
+        <option value="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/StrategyPatternDemo.java" />
       </list>
     </option>
   </component>
@@ -166,16 +191,16 @@
           <expand>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="null-object-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="null-object-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="null-object-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -213,18 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NullPatternDemo">
-    <configuration name="MediatorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.skh.pattern.MediatorPatternDemo" />
-      <module name="mediator-pattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.skh.pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.StrategyPatternDemo">
     <configuration name="MementoPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.skh.pattern.MementoPatternDemo" />
       <module name="memento-pattern" />
@@ -261,6 +275,17 @@
     <configuration name="StatePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.skh.pattern.StatePatternDemo" />
       <module name="state-pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skh.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skh.pattern.StrategyPatternDemo" />
+      <module name="strategy-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -311,19 +336,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MediatorPatternDemo" />
       <item itemvalue="Application.MementoPatternDemo" />
       <item itemvalue="Application.ObserverPatternDemo" />
       <item itemvalue="Application.StatePatternDemo" />
       <item itemvalue="Application.NullPatternDemo" />
+      <item itemvalue="Application.StrategyPatternDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPatternDemo" />
         <item itemvalue="Application.NullPatternDemo" />
         <item itemvalue="Application.StatePatternDemo" />
         <item itemvalue="Application.ObserverPatternDemo" />
         <item itemvalue="Application.MementoPatternDemo" />
-        <item itemvalue="Application.MediatorPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -351,12 +376,12 @@
       <workItem from="1531444081274" duration="601000" />
       <workItem from="1531447881039" duration="2708000" />
       <workItem from="1531465148464" duration="2824000" />
-      <workItem from="1531881340536" duration="3035000" />
+      <workItem from="1531881340536" duration="4487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61686000" />
+    <option name="totallyTimeSpent" value="63138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -371,7 +396,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32997763" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997763" />
       <window_info id="Capture Tool" order="2" />
@@ -425,55 +450,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/com/skh/pattern/RealImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/com/skh/pattern/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9299">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="3207" column="45" lean-forward="true" selection-start-line="3207" selection-start-column="45" selection-end-line="3207" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4901">
-          <caret line="600" column="28" selection-start-line="600" selection-start-column="28" selection-end-line="600" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/RandomAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8771">
@@ -781,10 +757,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/AbstractCustomer.java">
+    <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/NullPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/CustomerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/NullCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -802,23 +798,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/NullCustomer.java">
+    <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/AbstractCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="220">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/null-object-pattern/src/com/skh/pattern/CustomerFactory.java">
+    <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationSubstract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/OperationMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/StrategyPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -874,7 +917,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>null-object-pattern</last-edited>
+          <last-edited>strategy-pattern</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
