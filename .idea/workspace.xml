@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af9a4475-de3d-4a83-b32a-072af9865305" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/state-pattern/src/com/skh/pattern/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state-pattern/src/com/skh/pattern/StartState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state-pattern/src/com/skh/pattern/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state-pattern/src/com/skh/pattern/StopState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state-pattern/state-pattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="af9a4475-de3d-4a83-b32a-072af9865305" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +50,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StopState.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StopState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/state-pattern/src/com/skh/pattern/StopState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="352">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatePatternDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/state-pattern/src/com/skh/pattern/StatePatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -83,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/decorator-pattern/src/com/skh/pattern/DecoratorPatternDemo.java" />
         <option value="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Shape.java" />
         <option value="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Rectangle.java" />
         <option value="$PROJECT_DIR$/facade-pattern/src/com/skh/pattern/Circle.java" />
@@ -134,6 +138,7 @@
         <option value="$PROJECT_DIR$/state-pattern/src/com/skh/pattern/State.java" />
         <option value="$PROJECT_DIR$/state-pattern/src/com/skh/pattern/StartState.java" />
         <option value="$PROJECT_DIR$/state-pattern/src/com/skh/pattern/StopState.java" />
+        <option value="$PROJECT_DIR$/state-pattern/src/com/skh/pattern/StatePatternDemo.java" />
       </list>
     </option>
   </component>
@@ -350,26 +355,26 @@
       <workItem from="1531444081274" duration="601000" />
       <workItem from="1531447881039" duration="2708000" />
       <workItem from="1531465148464" duration="2824000" />
-      <workItem from="1531881340536" duration="1630000" />
+      <workItem from="1531881340536" duration="1917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60281000" />
+    <option name="totallyTimeSpent" value="60568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.1655481" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32997763" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997763" />
       <window_info id="Capture Tool" order="2" />
@@ -388,7 +393,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.1655481" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,13 +428,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flyweight-pattern/src/com/skh/pattern/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flyweight-pattern/src/com/skh/pattern/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
@@ -799,8 +796,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/state-pattern/src/com/skh/pattern/StopState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="352">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state-pattern/src/com/skh/pattern/StatePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -821,7 +829,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
