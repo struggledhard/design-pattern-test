@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a4475-de3d-4a83-b32a-072af9865305" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/template-pattern/src/com/skh/pattern/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-pattern/template-pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPartDisplayVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor-pattern/visitor-pattern.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -16,11 +22,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template-pattern/src/com/skh/pattern/Game.java">
+      <file leaf-file-name="ComputerPartVisitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPartVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerPart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Keyboard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Keyboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Monitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Monitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Mouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerPartDisplayVisitor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPartDisplayVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -41,16 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/proxy-pattern/src/com/skh/pattern/ProxyPatternDemo.java" />
-        <option value="$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/AbstractLogger.java" />
-        <option value="$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/ConsoleLogger.java" />
-        <option value="$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/ErrorLogger.java" />
-        <option value="$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/FIleLogger.java" />
-        <option value="$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/FileLogger.java" />
-        <option value="$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/ChianPatternDemo.java" />
-        <option value="$PROJECT_DIR$/command-pattern/src/com/skh/pattern/Order.java" />
-        <option value="$PROJECT_DIR$/command-pattern/src/com/skh/pattern/Stock.java" />
-        <option value="$PROJECT_DIR$/command-pattern/src/com/skh/pattern/BuyStock.java" />
         <option value="$PROJECT_DIR$/command-pattern/src/com/skh/pattern/SellStock.java" />
         <option value="$PROJECT_DIR$/command-pattern/src/com/skh/pattern/Broker.java" />
         <option value="$PROJECT_DIR$/command-pattern/src/com/skh/pattern/CommandPatternDemo.java" />
@@ -92,6 +158,16 @@
         <option value="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/Context.java" />
         <option value="$PROJECT_DIR$/strategy-pattern/src/com/skh/pattern/StrategyPatternDemo.java" />
         <option value="$PROJECT_DIR$/template-pattern/src/com/skh/pattern/Game.java" />
+        <option value="$PROJECT_DIR$/template-pattern/src/com/skh/pattern/Cricket.java" />
+        <option value="$PROJECT_DIR$/template-pattern/src/com/skh/pattern/Football.java" />
+        <option value="$PROJECT_DIR$/template-pattern/src/com/skh/pattern/TemplatePatternDemo.java" />
+        <option value="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPart.java" />
+        <option value="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Keyboard.java" />
+        <option value="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Monitor.java" />
+        <option value="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPartVisitor.java" />
+        <option value="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Mouse.java" />
+        <option value="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Computer.java" />
+        <option value="$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPartDisplayVisitor.java" />
       </list>
     </option>
   </component>
@@ -123,16 +199,16 @@
           <expand>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor-pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -308,12 +384,12 @@
       <workItem from="1531444081274" duration="601000" />
       <workItem from="1531447881039" duration="2708000" />
       <workItem from="1531465148464" duration="2824000" />
-      <workItem from="1531881340536" duration="6302000" />
+      <workItem from="1531881340536" duration="8131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64953000" />
+    <option name="totallyTimeSpent" value="66782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -329,7 +405,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32997763" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997763" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -382,76 +458,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2681">
-          <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter-pattern/src/com/skh/pattern/FilterPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/ConsoleLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/ErrorLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/FileLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/ChianPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chain-pattern/src/com/skh/pattern/AbstractLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command-pattern/src/com/skh/pattern/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command-pattern/src/com/skh/pattern/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command-pattern/src/com/skh/pattern/BuyStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/command-pattern/src/com/skh/pattern/SellStock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -790,10 +796,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template-pattern/src/com/skh/pattern/TemplatePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-pattern/src/com/skh/pattern/Football.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-pattern/src/com/skh/pattern/Cricket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template-pattern/src/com/skh/pattern/Game.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPart.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPartVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitor-pattern/src/com/skh/pattern/ComputerPartDisplayVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -814,7 +922,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -849,7 +957,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>template-pattern</last-edited>
+          <last-edited>visitor-pattern</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
