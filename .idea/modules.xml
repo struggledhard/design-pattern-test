@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Iterator-pattern/iterator-pattern.iml" filepath="$PROJECT_DIR$/Iterator-pattern/iterator-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediator-pattern/mediator-pattern.iml" filepath="$PROJECT_DIR$/mediator-pattern/mediator-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/memento-pattern/memento-pattern.iml" filepath="$PROJECT_DIR$/memento-pattern/memento-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/null-object-pattern/null-object-pattern.iml" filepath="$PROJECT_DIR$/null-object-pattern/null-object-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/observer-pattern/observer-pattern.iml" filepath="$PROJECT_DIR$/observer-pattern/observer-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" filepath="$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy-pattern/proxy-pattern.iml" filepath="$PROJECT_DIR$/proxy-pattern/proxy-pattern.iml" />
