@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/observer-pattern/observer-pattern.iml" filepath="$PROJECT_DIR$/observer-pattern/observer-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" filepath="$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy-pattern/proxy-pattern.iml" filepath="$PROJECT_DIR$/proxy-pattern/proxy-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singleton-pattern/singleton-pattern.iml" filepath="$PROJECT_DIR$/singleton-pattern/singleton-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/state-pattern/state-pattern.iml" filepath="$PROJECT_DIR$/state-pattern/state-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/strategy-pattern/strategy-pattern.iml" filepath="$PROJECT_DIR$/strategy-pattern/strategy-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/template-pattern/template-pattern.iml" filepath="$PROJECT_DIR$/template-pattern/template-pattern.iml" />
